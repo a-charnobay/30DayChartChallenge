@@ -38,8 +38,8 @@ library(ggridges)
 #| output: false
 
 info <- info_sidra("6780")
-names(info)
-info$classific_category
+#names(info)
+#info$classific_category
 
 dados <- get_sidra(x = 6780,
                    variable = "all",      
