@@ -35,6 +35,7 @@ library(ggridges)
 
 ```{r}
 #| label: Load data from IBGE API - Sidra
+#| output: false
 
 info <- info_sidra("6780")
 names(info)
