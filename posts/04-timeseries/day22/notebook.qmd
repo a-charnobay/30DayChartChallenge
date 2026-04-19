@@ -1,0 +1,7 @@
+---
+title: "22.New Tool"
+date: "2026-04-22"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Timeseries]
+---

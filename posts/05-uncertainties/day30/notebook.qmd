@@ -1,0 +1,8 @@
+---
+title: "30.Global Health Data Exchange Data Day"
+date: "2026-04-30"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Uncertainties]
+---
+

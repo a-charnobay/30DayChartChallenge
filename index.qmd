@@ -1,0 +1,84 @@
+---
+title: "30 Day Chart Challenge Gallery"
+listing:
+  - id: comparisons
+    contents: posts/01-comparisons
+    type: grid
+    categories: true
+    sort: "date asc"
+    grid-columns: 3
+    image-height: 250px
+    fields: [image, title]
+  - id: distributions
+    contents: posts/02-distributions
+    type: grid
+    categories: true
+    sort: "date asc"
+    grid-columns: 3
+    image-height: 250px
+    fields: [image, title]
+  - id: relationships
+    contents: posts/03-relationships
+    type: grid
+    categories: true
+    sort: "date asc"
+    grid-columns: 3
+    image-height: 250px
+    fields: [image, title]
+  - id: timeseries
+    contents: posts/04-timeseries
+    type: grid
+    categories: true
+    sort: "date asc"
+    grid-columns: 3
+    image-height: 250px
+    fields: [image, title]
+  - id: uncertainties
+    contents: posts/05-uncertainties
+    type: grid
+    categories: true
+    sort: "date asc"
+    grid-columns: 3
+    image-height: 250px
+    fields: [image, title]
+page-layout: article
+format:
+  html:
+    toc: true
+    toc-location: right
+    toc-title: "Challenge themes"
+---
+
+Welcome to my #30DayChartChallenge gallery!
+
+Every April, the [#30DayChartChallenge](https://github.com/30DayChartChallenge/Edition2026) brings together people from around the world to explore data through daily visualizations. The challenge follows a simple idea: create one chart per day for 30 days, guided by themes (such as comparisons, distributions, time series) and prompts (such as circular, trade, evolution).
+
+This year I joined for the first time and chose to explore datasets related to Brazilian agriculture—a topic closely connected to my background and interests.
+
+Each chart in this gallery includes the visualization along with the code used to create it. I hope you enjoy exploring these daily experiments as much as I enjoyed creating them!
+
+
+### Comparisons
+
+::: {#comparisons}
+:::
+
+### Distributions
+
+::: {#distributions}
+:::
+
+### Relationships
+
+::: {#relationships}
+:::
+
+### Time Series
+
+::: {#timeseries}
+:::
+
+### Uncertainties
+
+::: {#uncertainties}
+:::

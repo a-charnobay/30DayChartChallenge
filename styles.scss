@@ -1,0 +1,171 @@
+/*-- scss:defaults --*/
+
+// 1. IMPORT WEBSITE FONTS
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Commissioner:wght@400;500;600;700&family=Domine:wght@400;700;900&family=Nunito:wght@400;500;600;700&family=Fira+Mono&display=swap');
+
+// 2. WEBSITE COLOR PALETTE
+$green:        #0B3D2E;
+$green-light:  #CFE3D6;
+$orange:       #D97A2B;
+$orange-light: #FBE6C8;
+$off-white:    #F8F9FA;
+$grey-ink:     #373A3E;
+
+// 3. FUNCTIONAL MAPPING
+$primary:               $green;
+$secondary:             $orange;
+$body-bg:               $off-white;
+$body-color:            $grey-ink;
+$link-color:            $secondary;
+
+$font-family-sans-serif: 'Commissioner', sans-serif;
+$font-family-body:       'Nunito', sans-serif;
+
+$transition-speed: 0.3s; 
+
+/*-- scss:rules --*/
+
+body {
+  font-family: $font-family-body !important;
+  font-size: 1.0em;
+  font-weight: 400;
+  background-color: $off-white;
+  color: $body-color;
+  line-height: 1.5;
+}
+
+h1, h2, h3, .title, .toc-title, .quarto-listing-category-title {
+  color: $primary !important;
+  font-family: $font-family-sans-serif !important;
+  font-weight: 700 !important;
+}
+
+// --- NAVBAR STYLING ---
+.navbar {
+  background-color: $primary !important; // Deep Green background
+  border-bottom: none;
+
+  // Navbar Links and Brand Name
+  .navbar-brand, .nav-link {
+    color: white !important;
+    font-family: $font-family-sans-serif;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: $green-light !important; // Light green hover effect from your website
+    }
+  }
+
+  // Active link (the page the user is currently on)
+  .nav-link.active {
+    font-weight: 700;
+    color: white !important;
+  }
+
+  // Toggler button for mobile view
+  .navbar-toggler-icon {
+    filter: invert(1); // Makes the "hamburger" menu white
+  }
+}
+
+// --- Compact Grid Card Styling ---
+.quarto-grid-item.card {
+  border: none !important; // Keeps the borderless look
+  border-radius: 12px !important; 
+  overflow: hidden !important; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05) !important; 
+  transition: all $transition-speed ease-in-out;
+  background-color: #ffffff !important; // White cards pop against off-white background
+  height: 100%;
+
+  &:hover {
+    transform: translateY(-4px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .card-body {
+    padding: 0.6rem !important; 
+  }
+
+  // FORCE TITLES TO PRIMARY GREEN
+  .listing-title, 
+  .listing-title a {
+    font-family: $font-family-sans-serif !important;
+    font-weight: 700 !important;
+    color: $primary !important; // Your Deep Green
+    font-size: 0.85rem !important;
+    line-height: 1.2;
+    text-decoration: none !important;
+  }
+
+  .card-img-top, 
+  .listing-item-img,
+  img {
+    height: 180px !important;     // Slightly taller to show the plot better
+    object-fit: contain !important; // Shows the WHOLE figure, no cropping
+    background-color: white;      // Fills any gaps if the plot is narrow
+    padding: 1px;                // Adds a nice "frame" around the plot
+    border: none !important; 
+    border-radius: 12px 12px 0 0 !important;
+  }
+
+  // Category Badges INSIDE the card (Orange Outline)
+  .listing-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-top: 4px;
+
+    .listing-category {
+      color: $secondary !important;
+      border: 1px solid rgba(217, 122, 43, 0.4) !important; // Subtle orange border
+      background-color: transparent;
+      font-size: 0.45rem; 
+      text-transform: uppercase;
+      padding: 1px 4px;
+      border-radius: 4px;
+      font-family: $font-family-sans-serif;
+    }
+  }
+}
+
+// --- Sidebar Category Filters (The Orange Boxes) ---
+.quarto-listing-category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  
+  .category {
+    color: $secondary !important;
+    border: 1px solid $secondary !important;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    padding: 3px 7px;
+    cursor: pointer;
+    font-family: $font-family-sans-serif;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none; 
+
+    &:hover {
+      background-color: $secondary !important;
+      color: white !important;
+    }
+  }
+}
+
+hr {
+  margin: 3rem 0;
+  border-top: 1px solid $green-light;
+  opacity: 0.3;
+}
+
+.minime img {
+    max-height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    margin-inline: 5px;
+}
+

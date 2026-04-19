@@ -1,0 +1,7 @@
+---
+title: "28.Modeling"
+date: "2026-04-28"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Uncertainties]
+---

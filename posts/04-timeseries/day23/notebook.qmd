@@ -1,0 +1,7 @@
+---
+title: "23.Seasons"
+date: "2026-04-24"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Timeseries]
+---

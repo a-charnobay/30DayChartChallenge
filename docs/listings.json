@@ -1,0 +1,37 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/01-comparisons/day01/notebook.html",
+      "/posts/01-comparisons/day02/notebook.html",
+      "/posts/01-comparisons/day03/notebook.html",
+      "/posts/01-comparisons/day04/notebook.html",
+      "/posts/01-comparisons/day05/notebook.html",
+      "/posts/01-comparisons/day06/notebook.html",
+      "/posts/02-distributions/day07/notebook.html",
+      "/posts/02-distributions/day08/notebook.html",
+      "/posts/02-distributions/day09/notebook.html",
+      "/posts/02-distributions/day10/notebook.html",
+      "/posts/02-distributions/day11/notebook.html",
+      "/posts/02-distributions/day12/notebook.html",
+      "/posts/03-relationships/day13/notebook.html",
+      "/posts/03-relationships/day14/notebook.html",
+      "/posts/03-relationships/day15/notebook.html",
+      "/posts/03-relationships/day16/notebook.html",
+      "/posts/03-relationships/day17/notebook.html",
+      "/posts/03-relationships/day18/notebook.html",
+      "/posts/04-timeseries/day19/notebook.html",
+      "/posts/04-timeseries/day20/notebook.html",
+      "/posts/04-timeseries/day21/notebook.html",
+      "/posts/04-timeseries/day22/notebook.html",
+      "/posts/04-timeseries/day23/notebook.html",
+      "/posts/04-timeseries/day24/notebook.html",
+      "/posts/05-uncertainties/day25/notebook.html",
+      "/posts/05-uncertainties/day27/notebook.html",
+      "/posts/05-uncertainties/day26/notebook.html",
+      "/posts/05-uncertainties/day28/notebook.html",
+      "/posts/05-uncertainties/day29/notebook.html",
+      "/posts/05-uncertainties/day30/notebook.html"
+    ]
+  }
+]

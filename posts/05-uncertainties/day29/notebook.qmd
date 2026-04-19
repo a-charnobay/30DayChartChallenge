@@ -1,0 +1,7 @@
+---
+title: "29.Monochrome"
+date: "2026-04-29"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Uncertainties]
+---

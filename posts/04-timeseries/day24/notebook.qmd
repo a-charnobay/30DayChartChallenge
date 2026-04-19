@@ -1,0 +1,8 @@
+---
+title: "24.South China Morning Post Theme Day"
+date: "2026-04-24"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Timeseries]
+---
+

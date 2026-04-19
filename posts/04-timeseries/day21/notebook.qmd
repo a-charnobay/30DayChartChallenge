@@ -1,0 +1,7 @@
+---
+title: "21.Historical"
+date: "2026-04-21"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Timeseries]
+---

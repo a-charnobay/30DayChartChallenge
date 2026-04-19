@@ -1,0 +1,8 @@
+---
+title: "26.Trend"
+date: "2026-04-26"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Uncertainties]
+---
+

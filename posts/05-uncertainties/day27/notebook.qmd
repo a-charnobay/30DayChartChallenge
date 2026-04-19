@@ -1,0 +1,7 @@
+---
+title: "26.Animation"
+date: "2026-04-26"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Uncertainties]
+---

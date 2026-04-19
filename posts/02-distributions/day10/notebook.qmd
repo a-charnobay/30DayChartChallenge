@@ -1,0 +1,110 @@
+---
+title: "10.Pop Culture"
+date: "2026-04-10"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Distributions, ggplot2]
+page-navigation: true
+toc: true
+toc-depth: 3
+execute: 
+  warning: false
+  message: false
+---
+
+## 1 Setup
+
+### 1.1 Create R and Python connection
+
+```{r}
+#| label: Create R and Python connection
+
+library(reticulate)
+use_virtualenv("r-reticulate", required = TRUE) 
+#py_config()
+
+```
+
+### 1.2 Load R packages
+
+```{r}
+#| label: Load R packages
+#| output: false
+
+library(tidytext)
+library(ggtext)       
+library(showtext) 
+library(stringr)
+library(tidyverse)
+library(here)
+library(readxl)
+library(scales)
+library(patchwork)
+library(gtrendsR)
+
+
+```
+
+### 1.3 Load data
+
+```{r}
+#| label: Load and clean dataset
+#| output: false
+
+
+```
+
+
+### 1.4 Set theme
+
+```{r}
+#| label: Theme and appearance
+
+# Font setup 
+font_add_google("Commissioner")
+showtext_auto()
+showtext_opts(dpi = 300)
+font_main <- "Commissioner"
+
+# Font Awesome for caption
+font_add(family = "fa-brands", regular = here("fonts", "Font Awesome 7 Brands-Regular-400.otf"))
+
+# Colors
+title_col <- "grey10"
+text_col  <- "grey30"
+bg_col    <- "#F2F4F8"
+
+
+```
+
+## 2 Prepare data for plotting
+
+```{r}
+#| label: Prepare for plotting
+
+
+```
+
+## 3. Plot
+
+```{r}
+#| label: Time to plot
+
+
+
+```
+
+```{r}
+#| label: Save plot
+#| include: false
+#| eval: false
+
+ggsave(
+  filename = "plot.png", 
+  plot = p,
+  width = 8, 
+  height = 6,
+  dpi = 300,
+  bg = "white"
+)
+```

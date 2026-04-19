@@ -1,0 +1,8 @@
+---
+title: "15.Correlation"
+date: "2026-04-15"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Relationships, ggplot2]
+---
+

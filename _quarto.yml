@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Gallery"
+  
+  navbar:
+    background: white        
+    color: "#333"            
+    right:
+      - icon: globe
+        href: https://a-charnobay.github.io
+        target: _blank
+      - icon: github
+        href: https://github.com/a-charnobay
+        target: _blank
+      - icon: linkedin
+        href: www.linkedin.com/in/aghata-charnobay
+        target: _blank
+        
+
+  page-footer:
+   center: "Built with [Quarto](https://quarto.org) and 🖤 by Aghata Charnobay"
+   
+
+format:
+  html:
+    theme: 
+      light: [cosmo, styles.scss]
+    toc: true                  
+    toc-location: right

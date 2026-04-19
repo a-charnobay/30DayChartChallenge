@@ -1,0 +1,9 @@
+---
+title: "25.Space"
+date: "2026-04-25"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Uncertainties]
+---
+
+

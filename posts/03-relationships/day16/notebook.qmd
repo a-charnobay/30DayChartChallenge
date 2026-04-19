@@ -1,0 +1,7 @@
+---
+title: "16.Causation"
+date: "2026-04-16"
+author: "Aghata Charnobay"
+image: "plot.png"        
+categories: [Relationships, ggplot2]
+---
