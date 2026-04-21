@@ -5,8 +5,8 @@
 .httr-oauth
 .DS_Store
 .quarto
-.xlsx
-.csv
+*.xlsx
+*.csv
 
 
 /.quarto/
