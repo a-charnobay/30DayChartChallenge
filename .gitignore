@@ -5,6 +5,8 @@
 .httr-oauth
 .DS_Store
 .quarto
+.xlsx
+.csv
 
 
 /.quarto/
@@ -12,3 +14,4 @@
 /_extensions/
 /fonts/
 /notebook_files/
+

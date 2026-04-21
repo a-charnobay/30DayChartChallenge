@@ -3,7 +3,7 @@ title: "05.Experimental"
 date: "2026-04-05"
 author: "Aghata Charnobay"
 image: "plot.png"        
-categories: [Comparisons, Boxplot]
+categories: [Comparisons, Heatmap]
 page-navigation: true
 toc: true
 toc-depth: 3
@@ -11,6 +11,10 @@ execute:
   warning: false
   message: false
 ---
+<br>
+<br>
+
+![](plot.png)
 
 ## 1 Setup
 
