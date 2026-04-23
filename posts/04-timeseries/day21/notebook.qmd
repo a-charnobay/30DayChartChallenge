@@ -42,8 +42,6 @@ library(zoo)
 # https://ourworldindata.org/land-use : Total agricultural land use
 
 df <- read_csv("hyde-longterm-agricultural-land-change.csv")
-head(df)
-
 ```
 
 ### 1.3 Set theme

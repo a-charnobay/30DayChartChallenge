@@ -361,14 +361,14 @@
     "href": "posts/04-timeseries/day22/notebook.html#save-plot",
     "title": "22.New Tool",
     "section": "5. Save plot",
-    "text": "5. Save plot\n\nplt.savefig(\"plot.png\", dpi=300, facecolor='white')"
+    "text": "5. Save plot"
   },
   {
     "objectID": "posts/04-timeseries/day21/notebook.html#setup",
     "href": "posts/04-timeseries/day21/notebook.html#setup",
     "title": "21.Historical",
     "section": "1 Setup",
-    "text": "1 Setup\n\n1.1 Load R packages\n\nlibrary(tidytext)\nlibrary(ggtext)       \nlibrary(showtext) \nlibrary(stringr)\nlibrary(tidyverse)\nlibrary(here)\nlibrary(readr)\nlibrary(scales)\nlibrary(ggstream)\nlibrary(zoo)\n\n\n\n1.2 Load data\n\n# https://ourworldindata.org/land-use : Total agricultural land use\n\ndf &lt;- read_csv(\"hyde-longterm-agricultural-land-change.csv\")\nhead(df)\n\n# A tibble: 6 × 4\n  Entity      Code    Year `Land use: Agriculture`\n  &lt;chr&gt;       &lt;chr&gt;  &lt;dbl&gt;                   &lt;dbl&gt;\n1 Afghanistan AFG   -10000                      0 \n2 Afghanistan AFG    -9000                      0 \n3 Afghanistan AFG    -8000                      0 \n4 Afghanistan AFG    -7000                      0 \n5 Afghanistan AFG    -6000                  39495.\n6 Afghanistan AFG    -5000                 102111.\n\n\n\n\n1.3 Set theme\n\n# Font setup \nfont_add_google(\"Commissioner\")\nshowtext_auto()\nshowtext_opts(dpi = 300)\nfont_main &lt;- \"Commissioner\"\n\n# Font Awesome for caption\nfont_add(family = \"fa-brands\", regular = here(\"fonts\", \"Font Awesome 7 Brands-Regular-400.otf\"))\n\n# Colors\ntitle_col &lt;- \"grey10\"\ntext_col  &lt;- \"grey30\"\nbg_col    &lt;- \"#F2F4F8\""
+    "text": "1 Setup\n\n1.1 Load R packages\n\nlibrary(tidytext)\nlibrary(ggtext)       \nlibrary(showtext) \nlibrary(stringr)\nlibrary(tidyverse)\nlibrary(here)\nlibrary(readr)\nlibrary(scales)\nlibrary(ggstream)\nlibrary(zoo)\n\n\n\n1.2 Load data\n\n# https://ourworldindata.org/land-use : Total agricultural land use\n\ndf &lt;- read_csv(\"hyde-longterm-agricultural-land-change.csv\")\n\n\n\n1.3 Set theme\n\n# Font setup \nfont_add_google(\"Commissioner\")\nshowtext_auto()\nshowtext_opts(dpi = 300)\nfont_main &lt;- \"Commissioner\"\n\n# Font Awesome for caption\nfont_add(family = \"fa-brands\", regular = here(\"fonts\", \"Font Awesome 7 Brands-Regular-400.otf\"))\n\n# Colors\ntitle_col &lt;- \"grey10\"\ntext_col  &lt;- \"grey30\"\nbg_col    &lt;- \"#F2F4F8\""
   },
   {
     "objectID": "posts/04-timeseries/day21/notebook.html#prepare-data-for-plotting",
