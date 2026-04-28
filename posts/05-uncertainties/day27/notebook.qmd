@@ -1,6 +1,6 @@
 ---
 title: "27.Animation"
-date: "2026-04-26"
+date: "2026-04-27"
 author: "Aghata Charnobay"
 image: "plot.png"        
 categories: [Uncertainties]
