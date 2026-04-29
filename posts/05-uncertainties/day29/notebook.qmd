@@ -42,8 +42,8 @@ library(patchwork)
 
 percent_value <- 85
 
-waffle_data <- expand.grid(x = 1:10, y = 1:10) %>%
-  arrange(y, x) %>%
+waffle_data <- expand.grid(x = 1:10, y = 1:10) |>
+  arrange(y, x) |>
   mutate(
     id = row_number(),
     status = if_else(id <= percent_value, "Filled", "Empty")
