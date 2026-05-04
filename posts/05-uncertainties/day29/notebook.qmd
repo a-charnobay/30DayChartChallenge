@@ -12,10 +12,9 @@ execute:
   message: false
 ---
 
-<br>
-<br>
+<br> <br>
 
-![](plot.png)
+![](plot.png){fig-align="center"}
 
 ## 1 Setup
 
@@ -66,13 +65,26 @@ font_main <- "Commissioner"
 font_add(family = "fa-brands", regular = here("fonts", "Font Awesome 7 Brands-Regular-400.otf"))
 
 # Colors
-title_col     <- "#F2F4F8"
-text_col      <- "#F2F4F8"
-bg_color      <-  "black"
+
+# Light version
+title_col     <- "#2D6A4F"
+text_col      <- "black"
+bg_color      <-  "white"
 
 # Monochrome Palette
-waffle_fill  <- "#F2F4F8" 
-waffle_unfill <- "grey40"
+waffle_fill  <- "#2D6A4F" 
+waffle_unfill <- "#ADC2A9"
+
+
+# dark version
+#title_col     <- "#F2F4F8"
+#text_col      <- "#F2F4F8"
+#bg_color      <-  "black"
+
+# Monochrome Palette
+#waffle_fill  <- "#F2F4F8" 
+#waffle_unfill <- "grey40"
+
 ```
 
 ## 2. Plot
@@ -109,14 +121,14 @@ p <- p_left + p_right +
     title = "Internet Access on Brazilian Farmlands",
     caption = paste0(
   "**Data**: IBGE (2024)",
-  "<br>**Design**: <span style='font-family:fa-brands; color:grey40;'>&#xf09b;</span> a-charnobay ", 
-  "<span style='font-family:fa-brands; color:grey40;'>&#xf08c;</span> Aghata Charnobay"
+  "<br>**Design**: <span style='font-family:fa-brands; color:#2D6A4F;'>&#xf09b;</span> a-charnobay ", 
+  "<span style='font-family:fa-brands; color:#2D6A4F;'>&#xf08c;</span> Aghata Charnobay"
 ),
  theme = theme(
    plot.title = element_text(family = font_main, face = "bold", size = 20, hjust = 0.5,
                              color = title_col, margin = margin(b = 0)),
    plot.caption = element_markdown(family = font_main, size = 10, 
-                                   color = text_col, margin = margin(t = 10), lineheight = 1.2, hjust = 1),
+                                   color = text_col, margin = margin(t = 10, r = -10), lineheight = 1.2, hjust = 1),
    plot.margin = margin(20, 30, 10, 30),
    plot.background = element_rect(fill = bg_color, color = NA)
     )
@@ -129,12 +141,11 @@ p <- p_left + p_right +
 #| eval: false
 
 ggsave(
-  filename = "plot.png", 
+  filename = "plot_light.png", 
   plot = p,
-  width = 5, 
+  width = 5.4, 
   height = 3.5,
   dpi = 300,
   bg = "white"
 )
 ```
-

@@ -150,7 +150,7 @@ p <- (p1 + p2 + p3 + p4) +
   plot_annotation(
     title = "How Mechanized Are Brazilian Farms?",
     subtitle = paste0(
-     "Brazil has more than 5 million farms, yet only a small fraction are mechanized, <span style='color:", col_highlight, ";'><b>tractors</b></span> are the most common<br>asset, but they are still present in only a minority of farms."
+     "Brazil has more than 5 million farms, yet only a small fraction are mechanized, <span style='color:", col_highlight, ";'><b>tractors</b></span> are the<br>most common asset, but they are still present in only a minority of farms."
     ),
     caption = paste0(
       "**Data**: Brazilian Census of Agriculture (2017)",
@@ -176,7 +176,7 @@ p <- (p1 + p2 + p3 + p4) +
 ggsave(
   filename = "plot.png", 
   plot = p,
-  width = 8, 
+  width = 7, 
   height = 4,
   dpi = 300,
   bg = "white"
